@@ -1,0 +1,23 @@
+# Conventional Commit Rule
+
+## Format
+All commits MUST follow: `<type>: <description>`
+
+## Types
+- **feat**: New feature
+- **fix**: Bug fix
+- **docs**: Documentation only
+- **chore**: Maintenance (tooling, config, dependencies)
+
+## Requirements
+- Description: lowercase, no period at end
+- Be clear and concise
+- Focus on what changed, not how
+
+## Examples
+```
+feat: add user authentication
+fix: resolve memory leak in cache
+docs: update api documentation
+chore: upgrade dependencies to latest versions
+```
